@@ -193,6 +193,7 @@ void FindAllWords(string soFar,Set<sring> &word,Set<poinT> checked,Lexicon &lex,
 			if(lex.containsPrefix(testString))
 				FindAllWords(testString,word,checked.add(p),lex,p,myNeighbour,getLocation,face);
 		}
+		return;
 }
 
 void shuffleBoggle(Grid<string> &cube,Map<char,Set<poinT> > &map,Map<poinT,Set<poinT> > &myNeighbour,Map<char,Set<poinT> > &getLocation,Grid<char> &face{
